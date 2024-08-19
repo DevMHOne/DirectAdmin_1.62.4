@@ -10,7 +10,7 @@ sed -i 's/\r//' setup.sh
 ```
 #### Auto Active (Only eth0):
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/quydang04/DirectAdmin_1.62.4/main/active.sh
+wget --no-check-certificate https://raw.githubusercontent.com/DevMHOne/DirectAdmin_1.62.4/main/active.sh
 chmod -R 777 active.sh
 ./active.sh
 ```
