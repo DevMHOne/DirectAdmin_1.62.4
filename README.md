@@ -42,8 +42,8 @@ service directadmin start
 
 #### Update Mirror Centos 7:
 ```
-wget -O /etc/yum/pluginconf.d/fastestmirror.conf --no-check-certificate https://raw.githubusercontent.com/quydang04/DirectAdmin_1.62.4/main/fastestmirror.conf
-wget -O /etc/yum.repos.d/CentOS-Base.repo --no-check-certificate https://raw.githubusercontent.com/quydang04/DirectAdmin_1.62.4/main/CentOS-Base.repo
+wget -O /etc/yum/pluginconf.d/fastestmirror.conf --no-check-certificate https://raw.githubusercontent.com/DevMHOne/DirectAdmin_1.62.4/main/fastestmirror.conf
+wget -O /etc/yum.repos.d/CentOS-Base.repo --no-check-certificate https://raw.githubusercontent.com/DevMHOne/DirectAdmin_1.62.4/main/CentOS-Base.repo
 sudo yum clean all
 sudo yum repolist -v
 ```
