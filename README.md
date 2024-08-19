@@ -3,7 +3,7 @@ DirectAdmin Nulled
 #### Install Centos 7:
 ```
 yum -y install nano wget perl
-wget --no-check-certificate https://raw.githubusercontent.com/quydang04/DirectAdmin_1.62.4/main/setup.sh
+wget --no-check-certificate https://raw.githubusercontent.com/DevMHOne/DirectAdmin_1.62.4/main/setup.sh
 chmod +x setup.sh
 sed -i 's/\r//' setup.sh
 ./setup.sh
